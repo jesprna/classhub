@@ -1,0 +1,117 @@
+
+
+body {
+    font-family: 'Open Sans', sans-serif;;
+    width: 100%;
+}
+.navbar {
+    margin: 0;
+}
+
+.sidebar {
+    z-index: 1;
+    position: absolute;
+    width: 0px;
+    height: 100%;
+    background: #2c3e50;
+    overflow-y: hidden;
+    color: #ddd;
+    transition: all 0.3s;
+}
+
+.sidebar h2{
+    text-align: center;
+    margin: 0;
+    padding: 10px;
+    background: #2a2a2a;
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.sidebar li {
+    outline: 1px solid #2a2a2a;
+    transition: all 0.3s;
+}
+.indent {
+    padding-left: 15px;
+    
+}
+
+.indentright{
+    padding-right: 15px;
+}
+
+.sidebarhover:hover {
+    background: #666666;
+    border-left: 5px solid #eee;
+    transition: all 0.3s;
+}
+
+.sidebar a {
+    display: block;
+    color: #ddd;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.content {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background: ghostwhite;
+    padding: 30px;
+    transition: all 0.3s;
+    
+}
+
+.menu-bar {
+    cursor: pointer;
+    width: 150px;
+    padding: 5
+}
+
+.sidebarslide {
+    width: 350px;
+    /*transform: translateX(250px); */
+}
+.contentsink {
+    padding-left: 260px;
+}
+
+.marginbox {
+    padding: 10px;
+}
+.navbarlogo {
+    height: 40px;
+    margin: 0;
+    padding: 0;
+}
+.navbar-inverse {
+    background: #2c3e50;
+    color: #ddd;
+}
+.panel {
+    background: transparent;
+}
+
+.userlogo {
+    height: 65px;
+    padding: 10px;
+    border-radius: 50%;
+}
+.classlogo {
+    height: 80px;
+    padding: 0;
+    margin-right: 10px;
+    border-radius: 50%;
+}
+
+#radioBtn .notActive{
+    color: #3276b1;
+    background-color: #fff;
+}
+

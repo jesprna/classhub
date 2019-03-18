@@ -1,0 +1,173 @@
+body {
+    font-family: 'Open Sans', sans-serif;;
+    width: 100%;
+}
+
+.hideradiobutton{
+    height: 0;
+    width: 0;
+    visibility: hidden;
+}
+.classwell {
+    background: #2c3e50;
+}
+
+/*input[type=checkbox]{
+
+    height: 0;
+    width: 0;
+    visibility: hidden;
+}
+
+label{
+  
+    text-indent: -9999px;
+    width: 100px;
+    height: 50px;
+    background: grey;
+    display: block;
+    border-radius: 100px;
+    position: relative;
+
+}
+
+label:after{
+    content: '';
+    position: absolute;
+    top: 2.5px;
+    left: 2.5px;
+    width: 45px;
+    height: 45px;
+    background: #fff;
+    border-radius: 90px;
+    transition: 0.3s;
+}
+
+input:checked + label{
+    background: #bada55;
+
+}
+input:checked + label:after{
+    left: calc(100%- 5px);
+    transform:  translate(-100%);
+}
+
+label:active:after {
+    width: 130px;
+}*/
+
+.navbar {
+    margin: 0;
+}
+
+.sidebar { 
+    z-index: 1;
+    position: absolute;
+    width: 350px;
+    height: 100%;
+    background: #2c3e50;
+    overflow-y: hidden;
+    color: #ddd;
+    transition: all 0.3s;
+}
+
+.sidebar h2{
+    text-align: center;
+    margin: 0;
+    padding: 10px;
+    background: #2a2a2a;
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.sidebar li {
+    outline: 1px solid #2a2a2a;
+    transition: all 0.3s;
+}
+.indent {
+    padding-left: 15px;
+    padding-right:15px
+}
+
+.sidebarhover:hover {
+    background: #666666;
+    border-left: 5px solid #eee;
+    transition: all 0.3s;
+}
+
+.sidebar a {
+    display: block;
+    color: #ddd;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.content {
+    
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background: ghostwhite;
+    padding: 30px;
+    padding-left: 350px;
+    
+    transition: all 0.3s;
+}
+
+.textright {
+    text-align: right;
+}
+
+.textleft {
+    text-align: left;
+}
+
+.menu-bar {
+    cursor: pointer;
+    width: 150px;
+    padding: 05px;
+}
+
+.sidebarslide {
+    width: 0px;
+}
+
+.contentsink {
+    padding-left: 30px;
+}
+
+.marginbox {
+    padding: 10px;
+}
+.navbarlogo {
+    height: 40px;
+    margin: 0;
+    padding: 0;
+}
+.navbar-inverse {
+    background: #2c3e50;
+    color: #ddd;
+}
+.panel {
+    background: transparent;
+}
+
+.userlogo {
+    height: 65px;
+    padding: 10px;
+    border-radius: 50%;
+}
+.classlogo {
+    height: 70px;
+    padding: 0;
+    margin-right: 10px;
+    border-radius: 50%;
+}
+
+.margin5 {
+    margin: 10px;
+}

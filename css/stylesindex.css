@@ -1,0 +1,53 @@
+body {
+    background-color: whitesmoke;
+    font-family: 'Open Sans', sans-serif;
+}
+.bghomefull {
+    background-image: url(../images/diversity-blured.jpg);
+    background-position: top;
+    background-size: cover;
+}
+.bgwhite{
+    background-color: whitesmoke;
+}
+.bgnone{
+    background-color: transparent;
+}
+#login {
+    
+}
+
+.floatingblock {
+    padding-bottom: 10px;
+    padding-top: 5px;
+    width: 100%;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+grey {
+    color: gray;
+}
+
+
+.vertical {
+    float:none;
+    display:inline-block;
+    vertical-align:middle;
+    margin-right:-4px;
+} 
+.alignleft {
+    text-align: left;
+}
+.textwhite {
+    color: white;
+}
+@media (min-width: 720px) {
+   .fitcenter {height:100%; margin:0;}
+}
+
+
+.logolarge {
+        background: url(/images/class4.png) cover;
+        margin-right: 20px;
+
+    }
